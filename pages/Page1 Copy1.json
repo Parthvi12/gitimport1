@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "Page1 Copy1",
+    "slug": "page1-copy1",
     "layouts": [
       {
         "viewMode": false,
@@ -13,16 +13,15 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 5010,
+          "bottomRow": 5016,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 56,
-          "minHeight": 740,
+          "minHeight": 1292,
           "parentColumnSpace": 1,
-          "dynamicTriggerPathList": [],
           "dynamicBindingPathList": [],
           "leftColumn": 0,
           "children": [
@@ -70,7 +69,7 @@
           "MainContainer"
         ],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "Page1 Copy1",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -81,5 +80,5 @@
   },
   "deleted": false,
   "policies": [],
-  "gitSyncId": "6257bd287d19044d68b1c656_6257bd287d19044d68b1c658"
+  "gitSyncId": "6257bdff7d19044d68b1c676_6257be377d19044d68b1c682"
 }
