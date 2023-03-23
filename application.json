@@ -11,6 +11,10 @@
     {
       "id": "Page1 Copy1",
       "isDefault": false
+    },
+    {
+      "id": "Test",
+      "isDefault": false
     }
   ],
   "viewMode": false,
