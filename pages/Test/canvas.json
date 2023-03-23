@@ -500,24 +500,6 @@
                       ],
                       "leftColumn": 0,
                       "primaryColumns": {
-                        "appsmith_mongo_escape_id": {
-                          "isCellVisible": true,
-                          "boxShadow": "none",
-                          "isDerived": false,
-                          "computedValue": "{{data_table.sanitizedTableData.map((currentRow) => ( currentRow._id))}}",
-                          "textSize": "0.875rem",
-                          "index": 1,
-                          "isVisible": true,
-                          "label": "_id",
-                          "columnType": "text",
-                          "horizontalAlignment": "LEFT",
-                          "borderRadius": "0px",
-                          "width": 150,
-                          "enableFilter": true,
-                          "enableSort": true,
-                          "id": "_id",
-                          "verticalAlignment": "CENTER"
-                        },
                         "date": {
                           "index": 0,
                           "width": 150,
@@ -536,6 +518,24 @@
                           "label": "date",
                           "computedValue": "{{data_table.sanitizedTableData.map((currentRow) => ( currentRow.date))}}",
                           "cellBackground": ""
+                        },
+                        "appsmith_mongo_escape_id": {
+                          "isCellVisible": true,
+                          "boxShadow": "none",
+                          "isDerived": false,
+                          "computedValue": "{{data_table.sanitizedTableData.map((currentRow) => ( currentRow._id))}}",
+                          "textSize": "0.875rem",
+                          "index": 1,
+                          "isVisible": true,
+                          "label": "_id",
+                          "columnType": "text",
+                          "horizontalAlignment": "LEFT",
+                          "borderRadius": "0px",
+                          "width": 150,
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "id": "_id",
+                          "verticalAlignment": "CENTER"
                         },
                         "Fr_": {
                           "index": 2,
@@ -1436,12 +1436,12 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "data_table.sortOrder.column || '_id'",
-                "key_select.selectedOptionValue",
-                "data_table.pageSize",
-                "data_table.sortOrder.order == \"desc\" ? -1 : 1",
-                "data_table.searchText||\"\"",
                 "(data_table.pageNo - 1) * data_table.pageSize",
+                "data_table.pageSize",
+                "data_table.searchText||\"\"",
+                "data_table.sortOrder.column || '_id'",
+                "data_table.sortOrder.order == \"desc\" ? -1 : 1",
+                "key_select.selectedOptionValue",
                 "order_select.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000

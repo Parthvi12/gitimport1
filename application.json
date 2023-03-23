@@ -24,6 +24,7 @@
   "publishedApplicationDetail": {},
   "color": "#F4FFDE",
   "icon": "shopper",
+  "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
   "applicationVersion": 2,
