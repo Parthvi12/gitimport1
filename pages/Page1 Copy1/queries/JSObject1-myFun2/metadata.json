@@ -2,11 +2,12 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "myFun1",
-    "fullyQualifiedName": "JSObject1.myFun1",
+    "name": "myFun2",
+    "fullyQualifiedName": "JSObject1.myFun2",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
+      "organizationId": "624415497b9ea67ca53658f4",
       "invalids": [
         "No datasource configuration found. Please configure it and try again."
       ],
@@ -16,15 +17,15 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1 Copy",
-    "collectionId": "Page1 Copy_JSObject1",
+    "pageId": "Page1 Copy1",
+    "collectionId": "Page1 Copy1_JSObject1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n\t\treturn \"success\";\n\t}",
+      "selfReferencingDataPaths": [],
       "jsArguments": [],
-      "isAsync": false
+      "isAsync": true
     },
     "executeOnLoad": false,
     "clientSideExecution": true,
@@ -36,13 +37,12 @@
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page1 Copy_JSObject1.myFun1",
+  "id": "Page1 Copy1_JSObject1.myFun2",
   "deleted": false,
-  "gitSyncId": "6257bd287d19044d68b1c656_6257bd597d19044d68b1c668"
+  "gitSyncId": "6257bdff7d19044d68b1c676_6257be377d19044d68b1c684"
 }
