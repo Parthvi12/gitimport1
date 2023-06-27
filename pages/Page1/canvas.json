@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 77,
+          "version": 80,
           "minHeight": 740,
           "parentColumnSpace": 1,
           "dynamicTriggerPathList": [],
@@ -175,7 +175,11 @@
                 "createdAt",
                 "updatedAt"
               ],
-              "dynamicPropertyPathList": [],
+              "dynamicPropertyPathList": [
+                {
+                  "key": "tableData"
+                }
+              ],
               "displayName": "Table",
               "bottomRow": 53,
               "columnWidthMap": {
@@ -560,7 +564,11 @@
                 "Column_7",
                 "rowIndex"
               ],
-              "dynamicPropertyPathList": [],
+              "dynamicPropertyPathList": [
+                {
+                  "key": "tableData"
+                }
+              ],
               "displayName": "Table",
               "bottomRow": 106,
               "columnWidthMap": {
